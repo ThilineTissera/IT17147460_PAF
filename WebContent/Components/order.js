@@ -128,15 +128,15 @@ function validateOrderForm() {
 	}
 
 	if ($("#orderQuantity").val().trim() == "") {
-		return "Insert Order Address.";
+		return "Insert Order Quantity.";
 	}
 
 	if ($("#orderUnit").val().trim() == "") {
-		return "Insert contact.";
+		return "Insert Unit.";
 	}
 
 	if ($("#orderDate").val().trim() == "") {
-		return "Insert date.";
+		return "Insert Date.";
 	}
 
 
